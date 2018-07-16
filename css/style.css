@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+div.box {
+	width: 200px;
+	height: 200px;
+	background: black;
+	margin: 100px auto;
+}
+div.box:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+div.box1 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
